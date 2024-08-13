@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sarathi Driving Institute</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #96002e;
+            background-color: beige;
+        }
+
+        header {
+            background-color:#db750f;
+            padding: 15px 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: black;
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .contact-details {
+            margin-bottom: 100px;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: center;
+        }
+
+        .contact-details p {
+            margin: 10px 0;
+        }
+
+        .contact-form {
+            padding: 50px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .contact-form h3 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .contact-form form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            padding: 15px;
+            border: none;
+            background-color:#97002E;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color:#db750f;
+        }
+
+        footer {
+            background-color: #db750f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sarathi Driving Institute</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#testimonials">Testimonials</a>
+            <a href="rates.html">Packages & Rates</a>
+            <a href="form.html">Form Guide</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Contact Us</h2>
+
+        <div class="contact-details">
+            <p><strong>Phone:</strong> +061588284, +9779806704748, +9779864373610</p>
+            <p><strong>Email:</strong> sarathi.driving2074@gmail.com</p>
+            <p><strong>Location:</strong> Annapurna Tole-10, Miyapatan, Kundahar, Pokhara, Nepal</p>
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+        
+    <footer>
+        <p>&copy; 2024 Sarathi Driving Institute. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

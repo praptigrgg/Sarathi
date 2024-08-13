@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages & Rates - Sarathi Driving Institute</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: beige;
+        }
+        
+        header {
+            background-color: #db750f;
+            padding: 15px 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: black;
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .packages {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .package {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            margin: 15px;
+            width: 30%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .package:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .package h3 {
+            font-size: 1.8em;
+            color: #db750f;
+            margin-bottom: 15px;
+        }
+
+        .package p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+h3, h4 {
+    margin-top: 20px;
+}
+footer {
+    background-color: #db750f;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sarathi Driving Institute</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#testimonials">Testimonials</a>
+            <a href="rates.html">Packages & Rates</a>
+            <a href="form.html">Form Guide</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Packages and Rates</h2>
+        
+        <h3>Scooter</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Duration</th>
+                    <th>Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>One Month</td>
+                    <td>26 days</td>
+                    <td>NRs.8000</td>
+                </tr>
+                <tr>
+                    <td>Half Month</td>
+                    <td>13 days</td>
+                    <td>NRs.4000</td>
+                </tr>
+                <tr>
+                    <td>7 Days</td>
+                    <td>7 days</td>
+                    <td>NRs.2100</td>
+                </tr>
+                <tr>
+                    <td>Half Hour</td>
+                    <td>30 minutes</td>
+                    <td>NRs.300</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Bike</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Duration</th>
+                    <th>Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>One Month</td>
+                    <td>26 days</td>
+                    <td>NRs.9000</td>
+                </tr>
+                <tr>
+                    <td>Half Month</td>
+                    <td>13 days</td>
+                    <td>NRs.4500</td>
+                </tr>
+                <tr>
+                    <td>7 Days</td>
+                    <td>7 days</td>
+                    <td>NRs.2450</td>
+                </tr>
+                <tr>
+                    <td>Half Hour</td>
+                    <td>30 minutes</td>
+                    <td>NRs.350</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Car</h3>
+        
+        <h4>Basic Course (Maruti)</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Duration</th>
+                    <th>Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>One Month</td>
+                    <td>26 days</td>
+                    <td>NRs.12000</td>
+                </tr>
+                <tr>
+                    <td>Half Month</td>
+                    <td>13 days</td>
+                    <td>NRs.6000</td>
+                </tr>
+                <tr>
+                    <td>7 Days</td>
+                    <td>7 days</td>
+                    <td>NRs.3500</td>
+                </tr>
+                <tr>
+                    <td>Half Hour</td>
+                    <td>30 minutes</td>
+                    <td>NRs.500</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>Trial Course (Datsun)</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Duration</th>
+                    <th>Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>One Month</td>
+                    <td>26 days</td>
+                    <td>NRs.1500</td>
+                </tr>
+                <tr>
+                    <td>Half Month</td>
+                    <td>13 days</td>
+                    <td>NRs.7500</td>
+                </tr>
+                <tr>
+                    <td>7 Days</td>
+                    <td>7 days</td>
+                    <td>NRs.4200</td>
+                </tr>
+                <tr>
+                    <td>Half Hour</td>
+                    <td>30 minutes</td>
+                    <td>NRs.600</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </main>
+    <br><br><br>
+    <footer>
+        <p>&copy; 2024 Sarathi Driving Institute</p>
+    </footer>
+</body>
+</html>
